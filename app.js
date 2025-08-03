@@ -1,1 +1,14 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+let friendList = [];
+let friendValue = "";
+
+const inputFriendTxt = document.getElementById("amigo");
+
+function agregarAmigo() {
+  friendValue = inputFriendTxt.value;
+  if (friendValue == "") {
+    alert("Por favor, inserte un nombre");
+  } else {
+    friendList.push(friendValue);
+  }
+  inputFriendTxt.value = "";
+}
