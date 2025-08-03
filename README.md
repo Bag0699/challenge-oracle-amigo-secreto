@@ -23,8 +23,6 @@ Este proyecto es una aplicación sencilla para sortear un "amigo secreto" entre 
 2. Agrega los nombres de tus amigos.
 3. Haz clic en "Sortear amigo" para ver el resultado.
 
-¡Listo para jugar al amigo
-
 ## Video demostración
 
 ![Demo del amigo secreto](assets/demostracion.gif)
